@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class fibanocciseries 
+{
+	public static void main (String[]args)
+	{
+	Scanner r=new Scanner(System.in);
+	System.out.println("ENTER THE NUMBER:");
+	int n=r.nextInt();
+	int sum=0;
+	
+		System.out.println("enter");
+			for(int i=1;i<=n;i++)
+			{ 
+				sum=sum+i;
+				System.out.println(sum);
+				
+			}
+			
+}
+}
