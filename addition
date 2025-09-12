@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class biggestnumber 
+{
+public static void main(String[]args)
+{
+	Scanner u=new Scanner(System.in);
+	System.out.println("ENTER THE VALUE:");
+	int a=u.nextInt();
+	int b=u.nextInt();
+	int c=u.nextInt();
+
+if(a>=b)
+{
+	System.out.println("The Biggest Number is "+a);
+}
+else if(b>=c)
+{
+	System.out.println("The Biggest Number is "+b);
+}
+else
+{
+	System.out.println("The Biggest Number is "+c);
+}
+}
+}
