@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class grade2
+{
+	public static void main(String[]args)
+	{
+	Scanner a=new Scanner(System.in);
+	System.out.println("ENTER THE VALUE:");
+	int num=a.nextInt();
+	{
+	 if(num>=90)
+	{
+		System.out.println("Grade A");
+	}
+	 else if(num>=80){
+		 System.out.println("Grade B");
+	 }
+	 else if(num>=60)
+	{
+		System.out.println("Grade C");
+	}
+	 else
+	 {
+		 System.out.println("Fail");
+	 }
+}
+}
+}
