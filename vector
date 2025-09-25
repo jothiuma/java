@@ -1,0 +1,16 @@
+package fibanocci;
+import java.util.List;
+import java.util.Vector;
+public class vector
+{
+	public static void main(String[]args)
+	{
+		List<Integer> b= new Vector<Integer>();
+		b.add(10);
+		b.add(30);
+		b.add(50);
+		b.add(70);
+		b.add(100);
+		System.out.println(b);
+	}
+}
