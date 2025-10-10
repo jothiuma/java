@@ -1,0 +1,21 @@
+package fibanocci;
+import java.util.Scanner;
+public class  year
+{
+	public static void main(String[]args)
+	{
+		Scanner a =new Scanner(System.in);
+		System.out.println("ENTER THE VALUE:");
+		int y=a.nextInt();
+		{
+			if(y%4==0)
+			{
+				System.out.println("Leap year!!!");
+			}
+			else
+			{
+				System.out.println("Not a Leap year!!!");
+			}
+		}
+	}
+}
