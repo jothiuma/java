@@ -1,0 +1,13 @@
+package fibanocci;
+import java.util.Scanner;
+public class Ascci 
+{
+	public static void main(String[]args)
+	{
+		Scanner a=new Scanner(System.in);
+		System.out.println("Enter Your ASCII");
+		String n=a.nextLine();
+		int b=n.compareTo("ABCF");
+		System.out.println(b);
+}
+}
