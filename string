@@ -1,0 +1,10 @@
+package fibanocci;
+
+public class string
+{
+	public static void main(String[]args)
+	{
+		String s1= "Vengat";
+		System.out.println(s1);
+	}
+}
