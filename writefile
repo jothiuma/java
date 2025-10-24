@@ -1,0 +1,20 @@
+package fibanocci;
+import java.io.FileWriter;
+import java.io.IOException;
+public class writefile 
+{
+	public static void main(String[]args)
+	{
+		try
+		{
+			FileWriter writer=new FileWriter("example.txt");
+			writer.write("Hello,this is file handling in java!");
+			writer.close();
+			System.out.println("Succesfully wrote to the file!");
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+}
