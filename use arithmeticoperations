@@ -1,0 +1,45 @@
+package fibanocci;
+import java.util.Scanner;
+public class test3operations
+{
+	public static void main(String[]args)
+	{
+		Scanner a=new Scanner(System.in);
+		System.out.println("Enter the first number:");
+		int s=a.nextInt();
+		System.out.println("Enter the second number:");
+		int t=a.nextInt();
+		System.out.println("Choose operations:+,-,*,/");
+		char op=a.next().charAt(0);
+		int resultInt=0;
+		double resultDouble=0;
+		if(op=='+')
+		{
+			resultInt=s+t;
+			System.out.println("result:"+resultInt);
+		}
+		else if(op=='-')
+		{
+			resultInt=s-t;
+			System.out.println("result:"+resultInt);
+		}
+		else if(op=='*')
+		{
+			resultInt=s*t;
+			System.out.println("result:"+resultInt);
+		}
+		else if(op=='/')
+		{
+			if(t!=0)
+			{
+				resultDouble=(double) s/t;
+				System.out.println("result:"+resultDouble);
+			}
+			else
+			{
+				System.out.println("invalid operations!!");
+			}
+		}
+		a.close();
+	}
+}
